@@ -72,6 +72,10 @@ spec:
         - application: aareg-innsyn-arbeidsgiver-api
           namespace: arbeidsforhold
           cluster: prod-fss
+          
+         
+        - application: sosialhjelp-avtaler-api
+          namespace: teamdigisos          
 
     outbound:
       rules:
